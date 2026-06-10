@@ -14,8 +14,9 @@ import java.util.List;
 @RestController
 // FIXED: Added http://localhost:5174 and http://127.0.0.1:5174 to resolve your active browser block
 @CrossOrigin(origins = {
-        "http://localhost:5173", "http://127.0.0.1:5173",
-        "http://localhost:5174", "http://127.0.0.1:5174"
+        "http://localhost:5173",
+        "http://127.0.0.1:5173",
+        "https://student-management-frontend-lac.vercel.app"
 })
 @RequestMapping("/students")
 public class StudentController {

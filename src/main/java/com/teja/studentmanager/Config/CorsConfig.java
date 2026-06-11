@@ -20,7 +20,8 @@ public class CorsConfig {
                                 "http://localhost:5173",
                                 "http://127.0.0.1:5173",
                                 "https://student-management-frontend-lr06lbsof.vercel.app",
-                                "https://student-management-frontend-lac.vercel.app/"
+                                "https://student-management-frontend-lac.vercel.app/",
+                                "https://student-management-frontend-lr06lbsof.vercel.app/"
                         )
                         .allowedMethods("GET", "POST", "PUT", "DELETE", "OPTIONS")
                         .allowedHeaders("*");
